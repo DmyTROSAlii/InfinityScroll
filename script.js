@@ -33,7 +33,7 @@ const debounce = (callBack, delay = 1000) => {
 
 const fetchImages = () => {
   let page = 1;
-  return async (query, resultsPerQuery = 10) => {
+  return async (query, resultsPerQuery = 15) => {
     try {
       const response = await fetch(
         `https://pixabay.com/api/?key=45317413-196ee31a94ed30f1c714ff998&q=${query}&per_page=${resultsPerQuery}&page=${page}`
