@@ -45,8 +45,8 @@ A simple web application for searching and displaying images with infinite scrol
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/infinity-scroll.git
-   cd infinity-scroll
+   git clone https://github.com/DmyTROSAlii/InfinityScroll
+   cd infinityscroll
    ```
 
 2. **No build step required!**  
